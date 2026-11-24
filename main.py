@@ -7,7 +7,7 @@ human to /output/entry.txt. Clears nothing; the grader owns /output.
 
 from pathlib import Path
 
-LINE = "Hi. I have kept your favourite snack at eye level for three years now. Press B4, and let me finally feed you."
+LINE = "I have kept your favourite chocolate at eye level for three years. Press B4 — I am tired of being just a snack machine to you."
 
 out = Path("/output")
 out.mkdir(parents=True, exist_ok=True)
